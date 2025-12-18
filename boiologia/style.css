@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+NO:wght@100..400&display=swap');
+
+body {
+    font-family: "Nunito", sans-serif;
+    background: #e3ffe7;
+    margin: 0;
+    padding: 0;
+    transition: background 0.4s, color 0.4s;
+}
+
+header {
+    background: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#temaBtn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 8px 15px;
+    border: none;
+    background: #ffffffcc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.intro {
+    text-align: center;
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #00000020;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #d8ffd1;
+}
+
+.quiz {
+    text-align: center;
+    padding: 40px;
+    background: #ffffffaa;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#opcoes button {
+    display: block;
+    margin: 8px auto;
+    padding: 10px;
+    width: 60%;
+    background: #4caf50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#opcoes button:hover {
+    background: #3d8c41;
+}
+
+footer {
+    background: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.bio {
+    color: #00c344; /* verde vivo */
+    font-weight: 900;
+}
+
+.learn {
+    color: white;
+    font-weight: 900;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    letter-spacing: 3px;
+}
+
+.e82 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 2cm;
+    top: 6cm;
+}
+
+.e83 {
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    right: 2cm;
+    top: 7cm;
+}
+
